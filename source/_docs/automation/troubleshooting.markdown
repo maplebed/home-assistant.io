@@ -17,11 +17,11 @@ Automations created in YAML must have an [`id`](/docs/automation/yaml/#migrating
 
 #### Traces ####
 
-The last 5 traces are recorded for all automations. It is possible to change this by adding the following code to your automation.
+The last 5 traces are recorded for all automations. It is possible to change this for a single automation. For example, to store 10 traces instead of the default 5, add this to your automation:
 
 ```yaml
 trace:
-    stored_traces: 1
+    stored_traces: 10
 ```
 
 [template]: /topics/templating/
